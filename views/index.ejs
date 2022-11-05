@@ -46,7 +46,10 @@
           <tr>
             <td><a href="<%= shortUrl.full %>"><%= shortUrl.full %></a></td>
             <td>
-              <a href="<%= shortUrl.short %>">window.location.href/<%= shortUrl.short %></a>
+              <a href="<%= shortUrl.short %>"
+                ><strong id="url"></strong
+                ><strong><%= shortUrl.short %></strong></a
+              >
             </td>
             <td><%= shortUrl.clicks %></td>
             <% }) %>
@@ -54,5 +57,8 @@
         </tbody>
       </table>
     </div>
+    <script>
+      document.getElementById("url").innerHTML = window.location.href;
+    </script>
   </body>
 </html>

@@ -9,4 +9,4 @@
   1. One URL can be shortened into multiple unique shortened links
   
 # DEMO VIDEO
-![DEMO](Demo.gif "demo video")
+![DEMO](demo_gif.gif "demo video")

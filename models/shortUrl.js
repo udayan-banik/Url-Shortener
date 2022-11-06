@@ -16,6 +16,11 @@ const shortUrlSchema = new mongoose.Schema({
     required: true,
     default: 0,
   },
+  miniurl: {
+    type: String,
+    required: true,
+    default: "https://url-shortener-jo1g.onrender.com/",
+  },
 });
 
 module.exports = mongoose.model("ShortUrl", shortUrlSchema);

@@ -46,9 +46,10 @@
           <tr>
             <td><a href="<%= shortUrl.full %>"><%= shortUrl.full %></a></td>
             <td>
-              <a href="<%= shortUrl.short %>"
-                ><strong id="url"></strong
-                ><strong><%= shortUrl.short %></strong></a
+              <a href="<%= shortUrl.short %>">
+                <!-- <strong id="url"></strong
+                > -->
+                <strong><%= shortUrl.miniurl %><%= shortUrl.short %></strong></a
               >
             </td>
             <td><%= shortUrl.clicks %></td>
